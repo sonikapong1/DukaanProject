@@ -35,32 +35,18 @@ const items = [
     getItem('Delivery', '4', <CarOutlined />),
     getItem('Marketing', '5', <SoundOutlined />),
     getItem('Analytics', '6', <BarChartOutlined />),
-    getItem('Payments', '7', <Banknote style={{ fill: 'white', color: 'black' }} />),
+    getItem('Payments', '7', <Banknote style={{ fill: 'white', color: 'black' }} width={10}/>),
     getItem('Tools', '8', <ToolOutlined />),
     getItem('Discounts', '9', <DollarOutlined />),
     getItem('Audience', '10', <TeamOutlined />),
-    getItem('Appearance', '11', <LucidePalette />),
+    getItem('Appearance', '11', <LucidePalette  width={10}/>),
     getItem('Plugins', '12', <ThunderboltOutlined />),
   ]),
 
-  // getItem(
-  //   (
-  //     <div className='d-flex border bg-secondary rounded-md'>
-  //       <div className='w-50 d-flex justify-content-center'>
-  //         <WalletOutlined />
-  //       </div>
-  //       <p className='w-75'>
-  //         Available Credits
-  //       </p>
-  //     </div>
-  //   ),
-  //   'sub4',
-  //   ''
-  // )
 ];
 const CustomMenu = () => {
-  const [current, setCurrent] = useState('1');
-  const [selectedKey, setSelectedKey] = useState('1');
+  const [current, setCurrent] = useState('7');
+  const [selectedKey, setSelectedKey] = useState('7');
   const onClick = (e) => {
     console.log()
     setCurrent(e.key);

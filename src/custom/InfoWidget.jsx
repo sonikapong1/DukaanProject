@@ -6,7 +6,7 @@ const InfoWidget = ({ header, body }) => {
     <div style={{
       width:609,
       height: 100
-    }} className=' p-2 shadow-sm bg-white'
+    }} className='p-3 shadow-sm bg-white'
 
     >
       <p className=''>{header}</p>

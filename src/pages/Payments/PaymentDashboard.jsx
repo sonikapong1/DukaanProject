@@ -12,7 +12,7 @@ const PaymentDashboard = () => {
         <p className="" style={{ width: '13%' }}><Select options={[]} className="w-75" placeholder={"Last Month"} /></p>
       </div>
       <div className="w-100 d-flex p-3 flex-wrap" style={{ gap: '2rem' }}>
-        <p ><InfoWidget header={"Online Orders"} body={"231"} /></p>
+        <InfoWidget header={"Online Orders"} body={"231"} />
         <p><InfoWidget header={"Amount received"} body={"₹23,92,312.19"} /></p>
       </div>
       <div className="p-3">

@@ -15,6 +15,9 @@ export default {
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
     },
+    fontFamily: {
+      'body': ['inter', 'sans-serif'],
+    },
   },
   plugins: [],
 }
